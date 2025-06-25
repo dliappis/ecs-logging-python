@@ -78,7 +78,7 @@ class StdlibFormatter(logging.Formatter):
         "message",
     } | _LOGRECORD_DIR
 
-    convert = _converter
+    converter = _converter
 
     def __init__(
         self,
